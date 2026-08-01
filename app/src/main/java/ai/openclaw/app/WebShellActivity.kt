@@ -106,7 +106,6 @@ class WebShellActivity : AppCompatActivity() {
     view.settings.apply {
       javaScriptEnabled = true
       domStorageEnabled = true
-      databaseEnabled = true
       setSupportMultipleWindows(false)
       mediaPlaybackRequiresUserGesture = false
       // Proper mobile viewport: let the page's viewport meta drive layout.
